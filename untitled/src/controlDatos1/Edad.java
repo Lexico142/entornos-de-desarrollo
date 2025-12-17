@@ -1,3 +1,5 @@
+package controlDatos1;
+
 import java.util.Scanner;
 
 public class Edad {
@@ -20,6 +22,6 @@ public class Edad {
                 src.next();
             }
         }
-        System.out.println("Edad guardada: " + edad);
+        System.out.println("edad guardada: " + edad);
     }
 }
