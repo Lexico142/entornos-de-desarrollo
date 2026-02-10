@@ -45,7 +45,7 @@ public class banco {
                         // Controlar que no saque más de lo que tiene
                         else if (retiro > saldo) {
                             System.out.println("ERROR: Saldo insuficiente. Solo tienes " + saldo + "€.");
-                        }
+                        }   
                         else {
                             saldo = saldo - retiro;
                             System.out.println("Has retirado " + retiro + "€. Nuevo saldo: " + saldo);
