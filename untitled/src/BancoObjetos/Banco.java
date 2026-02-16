@@ -88,7 +88,7 @@ public class Banco {
                 int opcion = src.nextInt();
 
                 switch (opcion) {
-                    case 1: 
+                    case 1:
                         System.out.print("¿Cuánto quieres ingresar?: ");
                         double ingreso = src.nextDouble();
 
